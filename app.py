@@ -17,7 +17,7 @@ list_of_columns =['Tested','Infected','Deaths']
 ########## Set up the chart
 
 import pandas as pd
-df = pd.read_csv('../assets/COVID19_state.csv')
+df = pd.read_csv('assets/COVID19_state.csv')
 
 ########### Initiate the app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
